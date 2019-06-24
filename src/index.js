@@ -15,6 +15,7 @@ const NUM_KEY_CLICKED = "NUM_KEY_CLICKED";
 
 // Commands
 const SUBMIT = "SUBMIT";
+export const commands = [COMMAND_RENDER, SUBMIT];
 
 // State update
 // Basically {a, b: {c, d}}, [{b:{e}]} -> {a, b:{e}}
